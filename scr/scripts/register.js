@@ -5,7 +5,7 @@ document.getElementById('register').addEventListener('submit',function(event){
     const Firstname = document.getElementById('Firstname').value;
     const Lastname = document.getElementById('Lastname').value;
     const Email = document.getElementById('Email').value;
-    const password = document.getElementById('password').value;
+    const password = document.getElementById('regpassword').value;
     const confirmpassword = document.getElementById('confirmpassword').value;
     if (password !== confirmpassword){
         alert('Passwords do not match. Please try again');

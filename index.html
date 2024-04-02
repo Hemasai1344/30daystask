@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Hemasai | Login & Registration</title>
     <script src="scr/scripts/login.js"></script>
+    <script src="scr/scripts/register.js"></script>
 </head>
 <body>
  <div class="wrapper">
@@ -66,7 +67,7 @@
         <form class="register-container" id="register">
             <div class="top">
                 <span>Have an account? <a href="#" onclick="login()">Login</a></span>
-                <header>Sign Up</header>
+                <button>Sign Up</button>
             </div>
             <div class="two-forms">
                 <div class="input-box">
@@ -88,7 +89,7 @@
             </div>
             <div class="input-box">
                 <input type="password" class="input-field"
-                 placeholder="Password" id="password"
+                 placeholder="Password" id="regpassword"
                  required >
                 <i class="bx bx-lock-alt"></i>
             </div>
@@ -129,7 +130,24 @@
     var a = document.getElementById("loginBtn");
     var b = document.getElementById("registerBtn");
     var x = document.getElementById("login");
-    var y = document.getElementById("register");
+     var y = document.getElementById("register"); 
+    //function login() {
+    //     x.style.left = "4px";
+    //     y.style.right = "-520px";
+    //     a.className += " white-btn";
+    //     b.className = "btn";
+    //     x.style.opacity = 1;
+    //     y.style.opacity = 0;
+    // }
+    // function register() {
+    //     x.style.left = "-510px";
+    //     y.style.right = "5px";
+    //     a.className = "btn";
+    //     b.className += " white-btn";
+    //     x.style.opacity = 0;
+    //     y.style.opacity = 1;
+    // }
+
 
 
 </script>
